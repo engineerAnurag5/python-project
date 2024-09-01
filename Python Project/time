@@ -1,0 +1,15 @@
+a=input("please enter your name: ")
+print ("hey", a ,"welcome ")
+
+
+import time
+t=time.strftime("%H:%M:%S")
+hour=int(time.strftime ('%H'))
+# hour=int(input("enter the time in hour "))
+print(t)
+if(hour>=0 and    hour<12):
+    print("good morning ",a)                    
+elif(hour>=12 and hour<17):
+    print("g00d afternoon ",a)
+else:
+    print("good night",a)
